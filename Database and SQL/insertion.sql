@@ -1,0 +1,13 @@
+INSERT INTO ku_user_status (name) VALUES;
+INSERT INTO ku_user_location_type (name) VALUES;
+INSERT INTO ku_user_location_status (name) VALUES;
+INSERT INTO ku_user (name, email, phone, password_hash, salt, photo, status) VALUES;
+INSERT INTO ku_order_status (name) VALUES;
+INSERT INTO ku_product_status (name) VALUES;
+INSERT INTO ku_user_location (type, status, user_id, location, address) VALUES;
+INSERT INTO ku_order (user_id, status) VALUES;
+INSERT INTO ku_product (name, effective_date, effective_until, photo, price, status) VALUES;
+INSERT INTO ku_category (name) VALUES;
+INSERT INTO ku_order_detail_status (name) VALUES;
+INSERT INTO ku_product_category (product_id, caategory_id) VALUES;
+INSERT INTO ku_order_detail (user_location_id, order_id, product_id, quantity, delivery_date, status) VALUES;
